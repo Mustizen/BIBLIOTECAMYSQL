@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INGRESO DE LIBROS</title>
+</head>
+<body>
+    <header>
+        <center><h1>INGRESAR DATOS: </h1></center>
+    </header>
+    <nav></nav>
+    <section>
+        <article>
+            <center>
+            <input type="text" name="id" placeholder="ingrese id de libro"> <br>
+            <input type="text" name="nom_libro" placeholder="ingrese nombre de libro"> <br>
+            <input type="text" name="autor" placeholder="ingrese autor de libro"> <br>
+            <input type="text" name="estado" placeholder="ingrese estado de libro"> <br>
+            </center>
+
+            <center><form action="ingresarLibros.php" method="post">
+                <button type="submit"> Ingresar Datos</button>
+            </form></center>
+
+            <center>
+                <form action="mostrarLibros.php" method="post">
+                    <button type="submit"> Mostrar Datos</button>
+                </form>
+            </center>
+            
+        </article>
+    </section>
+</body>
+</html>
